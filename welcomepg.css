@@ -1,0 +1,57 @@
+.welcome-page {
+    background-color: #cce0d73c;
+    display: flex;
+    margin-top: 11%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.left-side {
+    text-align: center;
+    width: 60%;
+    line-height: 1px;
+    
+}
+
+.right-side {
+    width: 40%;
+    align-items: center;
+}
+
+.welcome-img {
+    height: 100%;
+    width: 100%;
+}
+
+.p1 {
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+.p2 {
+    font-size: 3.5vw;
+}
+
+.p3 {
+    font-size: 1.5vw;
+}
+
+button {
+    background-color: #8ce7bf;
+    border: none;
+    height: 10%;
+    width: 15%;
+    font-size: 1vw;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #77d4ac;
+}
+
+button:active {
+    background-color: #52a17f;
+}
