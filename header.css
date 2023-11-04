@@ -6,13 +6,14 @@
     left: 0;
     right: 0;
     height: 90px;
-    border-bottom: 1px solid black;
+    background-color: white;
 }
 
 .left-section {
     display: flex;
     align-items: center;
     width: 45;
+    margin-left: 20px;
 }
 
 .logo {
@@ -48,4 +49,25 @@
     font-weight: bold;
     padding: 5px 15px;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.home:hover,
+.about:hover,
+.education:hover,
+.achivements:hover,
+.interests:hover,
+.projects:hover,
+.contact:hover {
+    background-image: linear-gradient(to right, white, #50d39b);
+}
+
+.home:active,
+.about:active,
+.education:active,
+.achivements:active,
+.interests:active,
+.projects:active,
+.contact:active {
+    background-image: linear-gradient(to right, white, #267752);
 }
