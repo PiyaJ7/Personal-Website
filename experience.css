@@ -1,0 +1,46 @@
+.experience-pg {
+    background-color: #cce0d73c;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 11% 5%;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.experience-sec {
+    background-color: #dae1de70;
+    margin: 5%;
+    padding: 5%;
+}
+
+.div-logo {
+    text-align: center;
+}
+
+.experience-logo {
+    width: 50%;
+    height: auto;
+}
+
+.experience-p1 {
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width:1000px) {
+    .experience-pg {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-button {
+        width: 20%;
+    }
+}
+
+@media (min-width:1000px) {
+    .experience-pg {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
