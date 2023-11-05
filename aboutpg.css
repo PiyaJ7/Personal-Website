@@ -55,10 +55,6 @@
     .about-page {
         grid-template-columns: 1fr;
     }
-
-    .p5 {
-        font-size: 1.5vw;
-    }
 }
 
 @media (min-width:1000px) {
