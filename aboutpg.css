@@ -1,31 +1,30 @@
 .about-page {
     background-color: #cce0d73c;
-    display: flex;
+    display: grid;  
     margin: 11% 5%;
 }
 
 .about-left {
-    width: 50%;
+    width: 100%;
     align-items: center;
     text-align: center;
 }
 
 .about-right {
-    width: 50%;
+    width: 90%;
     padding: 2% 5%;
 }
 
 .my-photo {
     border-radius: 100%;
     border: 5px solid black;
+    align-items: center;
     margin-top: 10%;
-    margin-bottom: -15%;
     height: auto;
     width: 30%;
 }
 
 .paragrapgh {
-    padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -50,4 +49,20 @@
 .p6 {
     font-size: 1.2vw;
     text-align: justify;
+}
+
+@media (max-width:1000px) {
+    .about-page {
+        grid-template-columns: 1fr;
+    }
+
+    .p5 {
+        font-size: 1.5vw;
+    }
+}
+
+@media (min-width:1000px) {
+    .about-page {
+        grid-template-columns: 1fr 1fr;
+    }
 }
