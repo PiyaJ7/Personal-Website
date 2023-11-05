@@ -2,6 +2,8 @@
     background-color: #cce0d73c;
     display: grid;  
     margin: 11% 5%;
+    padding-top: 90px;
+    padding-bottom: 50px;
 }
 
 .about-left {
@@ -19,7 +21,7 @@
     border-radius: 100%;
     border: 5px solid black;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 2%;
     height: auto;
     width: 30%;
 }

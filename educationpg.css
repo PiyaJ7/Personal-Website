@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 11% 5%;
+    padding-top: 90px;
+    padding-bottom: 10%;
 }
 
 .edu-left {
@@ -45,6 +47,8 @@
     height: auto;
     align-items: center;
     padding: 2% 5%;
+    font-weight: bold;
+    font-size: 1.1vw;
 }
 
 .more-icon {
