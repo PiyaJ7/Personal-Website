@@ -38,12 +38,10 @@
 }
 
 .home,
-.about,
-.education,
-.achivements,
-.interests,
-.projects,
-.contact {
+.courses,
+.online,
+.extracurricular,
+.Others {
     background-image: linear-gradient(to right, white, #c8fae4);
     font-size: 17px;
     font-weight: bold;
@@ -53,21 +51,17 @@
 }
 
 .home:hover,
-.about:hover,
-.education:hover,
-.achivements:hover,
-.interests:hover,
-.projects:hover,
-.contact:hover {
+.courses:hover,
+.online:hover,
+.extracurricular:hover,
+.Others:hover {
     background-image: linear-gradient(to right, white, #50d39b);
 }
 
 .home:active,
-.about:active,
-.education:active,
-.achivements:active,
-.interests:active,
-.projects:active,
-.contact:active {
+.courses:active,
+.online:active,
+.extracurricular:active,
+.Others:active {
     background-image: linear-gradient(to right, white, #267752);
 }
