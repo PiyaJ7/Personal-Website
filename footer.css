@@ -7,6 +7,7 @@
     right: 0;
     height: 30px;
     display: flex;
+    z-index: 2;
 }
 
 .footer-left {
