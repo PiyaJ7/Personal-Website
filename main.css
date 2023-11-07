@@ -1,8 +1,8 @@
 body {
-background: linear-gradient(90deg, white 0%, #d5f7e8 35%, #e9f7f1 55%);
-font-family: Arial, Helvetica, sans-serif;
-margin-top: 90px;
-margin-bottom: 30px;
+    background: linear-gradient(90deg, white 0%, #d5f7e8 35%, #e9f7f1 55%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 
 a {

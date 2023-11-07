@@ -48,6 +48,14 @@
     .contact-logo {
         width: 15%;
     }
+
+    .contact-p1 {
+        font-size: 8vw;
+    }
+
+    .contact-p2 {
+        font-size: 4vw;
+    }
 }
 
 @media (min-width:1000px){
