@@ -1,0 +1,54 @@
+.awards-pg {
+    background-color: #cce0d73c;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 11% 5%;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.awards-sec {
+    background-color: #dae1de70;
+    margin: 5%;
+    padding: 5%;
+}
+
+.div-logo {
+    text-align: center;
+}
+
+.awards-logo {
+    width: 40%;
+    height: auto;
+}
+
+.awards-p1 {
+    font-size: 1.8vw;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+.awards-p2 {
+    display: flex;
+}
+
+.medal-img {
+    width: 15%;
+}
+
+@media (max-width:1000px) {
+    .awards-pg {
+        grid-template-columns: 1fr;
+    }
+
+    .awards-p1 {
+        font-size: 5vw;
+    }
+}
+
+@media (min-width:1000px) {
+    .awards-pg {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
