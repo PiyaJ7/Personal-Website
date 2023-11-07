@@ -41,8 +41,8 @@
 .home,
 .about,
 .education,
-.achivements,
-.interests,
+.achievements,
+.skills,
 .projects,
 .contact {
     background-image: linear-gradient(to right, white, #c8fae4);
@@ -57,7 +57,7 @@
 .about:hover,
 .education:hover,
 .achivements:hover,
-.interests:hover,
+.skills:hover,
 .projects:hover,
 .contact:hover {
     background-image: linear-gradient(to right, white, #50d39b);
@@ -67,7 +67,7 @@
 .about:active,
 .education:active,
 .achivements:active,
-.interests:active,
+.skills:active,
 .projects:active,
 .contact:active {
     background-image: linear-gradient(to right, white, #267752);
