@@ -22,6 +22,7 @@
 .achieve-p1 {
     font-size: 3vw;
     font-weight: bold;
+    text-align: center;
     background-image: linear-gradient(to left, #022013, #047745, #0a8952, #4baa80, #38c588, #0a8952, #047745, #022013);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -90,6 +91,15 @@
 @media (max-width:750px) {
     .achievements-page {
         grid-template-columns: 1fr;
+    }
+
+    .achieve-p1 {
+        font-size: 5vw;
+        padding: 3%;
+    }
+
+    .grid-p {
+        font-size: 2.8vw;
     }
 }
 

@@ -49,6 +49,9 @@
     padding: 2% 5%;
     font-weight: bold;
     font-size: 1.1vw;
+    white-space: nowrap;
+    border-radius: 15px;
+    border: none;
 }
 
 .more-icon {
@@ -62,8 +65,17 @@
         grid-template-columns: 1fr;
     }
 
+    .edu-p1 {
+        font-size: 5vw;
+    }
+
+    .edu-p2 {
+        font-size: 3vw;
+    }
+    
+
     .more-button {
-        width: 20%;
+        font-size: 3vw;
     }
 }
 
