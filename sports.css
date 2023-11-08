@@ -1,0 +1,36 @@
+.sports-page {
+    background-color: #cce0d73c;
+    margin: 10% 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;    
+}
+
+.sports-pg {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.sport-left {
+    text-align: center;
+    padding: 10% 0%;
+}
+
+.sport-right {
+    padding: 5%;
+}
+
+.sport-header {
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(to left, #022013, #047745, #0a8952, #4baa80, #38c588, #0a8952, #047745, #022013);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+
+.sport-img {
+    width: 80%;
+    
+}
