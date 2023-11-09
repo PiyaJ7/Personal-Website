@@ -35,7 +35,7 @@
 .achieve-grid3,
 .achieve-grid4 {
     background-image: linear-gradient(to left, #689985, #32dd93, #55f1ae, #72ecb7, #9af6cc, #72ecb7, #55f1ae, #32dd93, #689985);
-    padding: 10% 0%;
+    
     border-radius: 25px;
     cursor: pointer;
 }
@@ -59,6 +59,7 @@
     margin-left: 30%;
     margin-right: 3%;
     margin-bottom: 3%;
+    padding: 1% 0%;
 }
 
 .achieve-grid2 {
@@ -66,6 +67,7 @@
     margin-right: 30%;
     margin-bottom: 3%;
     margin-left: 3%;
+    padding: 3% 0%;
 }
 
 .achieve-grid3 {
@@ -73,6 +75,7 @@
     margin-left: 30%;
     margin-right: 3%;
     margin-top: 3%;
+    padding: 3% 0%;
 }
 
 .achieve-grid4 {
@@ -80,6 +83,11 @@
     margin-right: 30%;
     margin-top: 3%;
     margin-left: 3%;
+    padding: 3% 0%;
+}
+
+.achieve-logo {
+    width: 50%;
 }
 
 .grid-p {
