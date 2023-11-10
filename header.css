@@ -13,7 +13,7 @@
 .left-section {
     display: flex;
     align-items: center;
-    width: 45;
+    width: 45%;
     margin-left: 20px;
 }
 
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 60%;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -71,4 +71,52 @@
 .projects:active,
 .contact:active {
     background-image: linear-gradient(to right, white, #267752);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.562);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.hide-Sidebar {
+    padding: 15% 15px;
+}
+
+.menu-button {
+    display: none;
+}
+
+@media (max-width: 1100px){
+    .home,
+    .about,
+    .education,
+    .achievements,
+    .skills,
+    .projects,
+    .contact {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .left-section {
+        width: 80%;
+    }
+
+    .right-section {
+        width: 20%;
+    }
 }

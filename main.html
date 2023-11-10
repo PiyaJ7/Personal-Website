@@ -22,6 +22,18 @@
             <img class="logo" src="images/logo.png">
             <p class="p-logo">PIYAMINI JAYODYA</p>
         </div>
+        <div class="sidebar">
+            <div onclick=hideSidebar()>
+                <img class="sidebar-menu-img" src="images/close_FILL0_wght400_GRAD0_opsz24.svg">
+            </div>
+            <a href="#home"><div class="hide-Sidebar">Home</div></a>
+            <a href="#about"><div class="hide-Sidebar">About</div></a>
+            <a href="#education"><div class="hide-Sidebar">Education</div></a>
+            <a href="#achievements"><div class="hide-Sidebar">Achivements</div></a>
+            <a href="#skills"><div class="hide-Sidebar">Skills</div></a>
+            <a href="#projects"><div class="hide-Sidebar">Projects</div></a>
+            <a href="#contact"><div class="hide-Sidebar">Contact</div></a>
+        </div>
         <div class="right-section">
             <a href="#home"><div class="home">Home</div></a>
             <a href="#about"><div class="about">About</div></a>
@@ -30,6 +42,9 @@
             <a href="#skills"><div class="skills">Skills</div></a>
             <a href="#projects"><div class="projects">Projects</div></a>
             <a href="#contact"><div class="contact">Contact</div></a>
+            <a href="#"><div class="menu-button" onclick=showSidebar()>
+                <img class="sidebar-menu-img" src="images/menu_FILL0_wght400_GRAD0_opsz24.svg">
+            </div></a>    
         </div>
     </div>
     <div class="footer">
@@ -470,5 +485,17 @@
             </p>
         </div>
     </div> 
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
 </body>
 </html>
