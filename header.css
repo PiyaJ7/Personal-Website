@@ -90,7 +90,16 @@
 }
 
 .hide-Sidebar {
-    padding: 15% 15px;
+    padding: 15px;
+    width: 250px;
+}
+
+.hide-Sidebar:hover {
+    background-color: rgba(232, 231, 231, 0.612);
+}
+
+.hide-Sidebar:active {
+    background-color: rgba(206, 203, 203, 0.612);
 }
 
 .menu-button {

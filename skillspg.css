@@ -6,7 +6,7 @@
 }
 
 .skills-header {
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: bold;
     text-align: center;
     background-image: linear-gradient(to left, #022013, #047745, #0a8952, #4baa80, #38c588, #0a8952, #047745, #022013);
@@ -157,7 +157,7 @@ svg {
 }
 
 .skill-name {
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-align: center;
     font-weight: 600;
     padding: 5%;
