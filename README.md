@@ -40,6 +40,6 @@ I'm always open to collaboration and new opportunities. If you have a project in
 
 ## 💖 Like my work?
 
-This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.
+This project needs a ⭐️ from you. Don't forget to leave a star.
 
 # <br><i>Thank You!✌️</i>
