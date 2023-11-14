@@ -1,6 +1,7 @@
 # Personal Portfolio 🌟
 
-Welcome to my personal portfolio website! This is where I showcase my skills, projects, and a little bit about myself. 🚀
+Welcome to my personal portfolio website! 🤝  
+This is where I showcase my skills, projects, and a little bit about myself. 🚀
 
 ## 📷 Project Screenshots
 ![Project Screenshot](https://github.com/PiyaJ7/Personal-Website/assets/138842869/e5e6c33c-95fb-4ae9-9ece-3f7544da57ef)
