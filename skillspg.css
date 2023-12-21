@@ -176,6 +176,10 @@ svg {
     .skill-name {
         font-size: 4vw;
     }
+
+    .skills-header {
+        font-size: 10vw;
+    }
 }
 
 @media (max-width:600px){
