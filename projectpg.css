@@ -1,127 +1,133 @@
 .projects-page {
-    background-color: #cce0d73c;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    margin: 11% 5%;
-    padding-top: 90px;
-    padding-bottom: 10%;
-    z-index: 1;
+  background-color: #cce0d73c;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 11% 5%;
+  padding-top: 90px;
+  padding-bottom: 10%;
+  z-index: 1;
 }
 
 .project-right {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .project-grid {
-    background-color: #cce6d88c;
-    margin: 2%;
-    cursor: pointer;
-    position: relative;
+  background-color: #cce6d88c;
+  margin: 2%;
+  cursor: pointer;
+  position: relative;
 }
 
 .project-link {
-    background-color: #d5ede2;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding: 15%;
-    opacity: 0;
+  background-color: #d5ede2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 15%;
+  opacity: 0;
 }
 
 .git-logo {
-    width: 30%;
+  width: 30%;
 }
 
 .project-p {
-    color: rgb(195, 195, 195);
-    font-size: 1.5vw;
+  color: rgb(195, 195, 195);
+  font-size: 1.5vw;
 }
 
 .project-link:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .project-grid:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 .project-link:active,
 .project-grid:active {
-    background-color: #8190888c;
-
+  background-color: #8190888c;
 }
 
 .grid-p {
-    font-size: 1.5vw;
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
-    color: black;
+  font-size: 1.5vw;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
 }
 
 .project-img {
-    width: 100%;
+  width: 100%;
 }
 
 .project-left-img {
-    width: 100%;
-    height: auto;
-    opacity: 0.7;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
 }
 
 .project-p1 {
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  background-image: linear-gradient(
+    to left,
+    #022013,
+    #047745,
+    #0a8952,
+    #4baa80,
+    #38c588,
+    #0a8952,
+    #047745,
+    #022013
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 750px) {
+  .projects-page {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-p {
+    font-size: 2vw;
+  }
+
+  .project-p1 {
+    font-size: 13vw;
+  }
+}
+
+@media (min-width: 750px) {
+  .projects-page {
+    grid-template-columns: 30% 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-right {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-p {
     font-size: 4vw;
-    font-weight: bold;
-    text-align: center;
-    background-image: linear-gradient(to left, #022013, #047745, #0a8952, #4baa80, #38c588, #0a8952, #047745, #022013);
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text;
-        color: transparent;
+  }
+
+  .project-p1 {
+    font-size: 13vw;
+  }
 }
 
-
-@media (max-width:750px) {
-    .projects-page {
-        grid-template-columns: 1fr;
-    }
-
-    .grid-p {
-        font-size: 2vw;
-    }
-
-    .project-p1 {
-        font-size: 13vw;
-    }
-}
-
-@media (min-width:750px) {
-    .projects-page {
-        grid-template-columns: 30% 70%;
-    }
-}
-
-@media (max-width:500px) {
-    .project-right {
-        grid-template-columns: 1fr;
-    }
-
-    .grid-p {
-        font-size: 4vw;
-    }
-
-    .project-p1 {
-        font-size: 13vw;
-    }
-}
-
-@media (min-width:500px) {
-    .project-right {
-        grid-template-columns: 1fr 1fr 1fr;
-        
-    }
+@media (min-width: 500px) {
+  .project-right {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
