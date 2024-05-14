@@ -1,71 +1,80 @@
 .skills-page {
-    background-color: #cce0d73c;
-    margin: 11% 5%;
-    padding-top: 90px;
-    padding-bottom: 50px;
+  background-color: #cce0d73c;
+  margin: 11% 5%;
+  padding-top: 90px;
+  padding-bottom: 50px;
 }
 
 .skills-header {
-    font-size: 5vw;
-    font-weight: bold;
-    text-align: center;
-    background-image: linear-gradient(to left, #022013, #047745, #0a8952, #4baa80, #38c588, #0a8952, #047745, #022013);
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text;
-        color: transparent;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  background-image: linear-gradient(
+    to left,
+    #022013,
+    #047745,
+    #0a8952,
+    #4baa80,
+    #38c588,
+    #0a8952,
+    #047745,
+    #022013
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .skillspg {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .skills-grid {
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill-bar {
-    width: 160px;
-    height: 160px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
+  width: 160px;
+  height: 160px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .outer {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-                -6px -6px 10px -1px rgba(255,255,255,0.7);
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
 .inner {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
-                -0.5px -0.5px 0px rgba(255,255,255,1),
-                0.5px 0.5px 0px rgba(0,0,0,0.15),
-                0px 12px 10px -10px rgba(0,0,0,0.05);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
 }
 
 #number {
-    font-size: 2vw;
-    font-weight: 600;
-    color: #555;
+  font-size: 2vw;
+  font-weight: 600;
+  color: #555;
 }
 
 .c1,
@@ -75,137 +84,154 @@
 .c5,
 .c6,
 .c7,
-.c8 {
-    fill: none;
-    stroke: url(#GradientColor);
-    stroke-width: 20px;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 472;
+.c8,
+.c9,
+.c10 {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
 }
 
 .c1 {
-    animation: anim1 2s linear forwards;
+  animation: anim1 2s linear forwards;
 }
 .c2 {
-    animation: anim2 2s linear forwards;
+  animation: anim2 2s linear forwards;
 }
 .c3 {
-    animation: anim3 2s linear forwards;
+  animation: anim3 2s linear forwards;
 }
 .c4 {
-    animation: anim4 2s linear forwards;
+  animation: anim4 2s linear forwards;
 }
 .c5 {
-    animation: anim5 2s linear forwards;
+  animation: anim5 2s linear forwards;
 }
 .c6 {
-    animation: anim6 2s linear forwards;
+  animation: anim6 2s linear forwards;
 }
 .c7 {
-    animation: anim7 2s linear forwards;
+  animation: anim7 2s linear forwards;
 }
 .c8 {
-    animation: anim8 2s linear forwards;
+  animation: anim8 2s linear forwards;
+}
+.c9 {
+  animation: anim9 2s linear forwards;
+}
+.c10 {
+  animation: anim3 2s linear forwards;
 }
 
-
 svg {
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 @keyframes anim1 {
-    100% {
-        stroke-dashoffset: 70;
-    }
+  100% {
+    stroke-dashoffset: 70;
+  }
 }
 @keyframes anim2 {
-    100% {
-        stroke-dashoffset: 94;
-    }
+  100% {
+    stroke-dashoffset: 94;
+  }
 }
 @keyframes anim3 {
-    100% {
-        stroke-dashoffset: 141;
-    }
+  100% {
+    stroke-dashoffset: 141;
+  }
 }
 @keyframes anim4 {
-    100% {
-        stroke-dashoffset: 118;
-    }
+  100% {
+    stroke-dashoffset: 118;
+  }
 }
 @keyframes anim5 {
-    100% {
-        stroke-dashoffset: 94;
-    }
+  100% {
+    stroke-dashoffset: 94;
+  }
 }
 @keyframes anim6 {
-    100% {
-        stroke-dashoffset: 141;
-    }
+  100% {
+    stroke-dashoffset: 141;
+  }
 }
 @keyframes anim7 {
-    100% {
-        stroke-dashoffset: 118;
-    }
+  100% {
+    stroke-dashoffset: 118;
+  }
 }
 @keyframes anim8 {
-    100% {
-        stroke-dashoffset: 212;
-    }
+  100% {
+    stroke-dashoffset: 60;
+  }
+}
+@keyframes anim9 {
+  100% {
+    stroke-dashoffset: 212;
+  }
+}
+@keyframes anim10 {
+  100% {
+    stroke-dashoffset: 141;
+  }
 }
 
 .skill-name {
-    font-size: 2vw;
-    text-align: center;
-    font-weight: 600;
-    padding: 5%;
-    color: #203f32cc;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: 600;
+  padding: 5%;
+  color: #203f32cc;
 }
 
-@media (max-width:1100px){
-    .skillspg {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+@media (max-width: 1100px) {
+  .skillspg {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-    #number {
-        font-size: 3vw;
-    }
+  #number {
+    font-size: 3vw;
+  }
 
-    .skill-name {
-        font-size: 4vw;
-    }
+  .skill-name {
+    font-size: 4vw;
+  }
 
-    .skills-header {
-        font-size: 10vw;
-    }
+  .skills-header {
+    font-size: 10vw;
+  }
 }
 
-@media (max-width:600px){
-    .skillspg {
-        grid-template-columns: 1fr 1fr;
-    }
+@media (max-width: 600px) {
+  .skillspg {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    #number {
-        font-size: 4vw;
-    }
+  #number {
+    font-size: 4vw;
+  }
 
-    .skill-name {
-        font-size: 5vw;
-    }
+  .skill-name {
+    font-size: 5vw;
+  }
 }
 
-@media (max-width:400px){
-    .skillspg {
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 400px) {
+  .skillspg {
+    grid-template-columns: 1fr;
+  }
 
-    #number {
-        font-size: 6vw;
-    }
+  #number {
+    font-size: 6vw;
+  }
 
-    .skill-name {
-        font-size: 8vw;
-    }
+  .skill-name {
+    font-size: 8vw;
+  }
 }
